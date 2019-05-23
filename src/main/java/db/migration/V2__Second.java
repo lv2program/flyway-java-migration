@@ -8,7 +8,7 @@ public class V2__Second extends BaseJavaMigration {
   @Override
   public void migrate(Context context) throws Exception {
     System.out.println("---");
-    System.out.println("Spring Context Loaded " + context.getConfiguration().getBaselineDescription());
+    System.out.println("Flyway Context Loaded " + context.getConfiguration().getBaselineDescription());
     System.out.println("---");
   }
 }
